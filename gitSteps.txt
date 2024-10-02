@@ -1,0 +1,27 @@
+1. Create repository in GitHub
+2. Then clone it into the terminal
+    git clone <repository link>
+
+3. Create any file you want
+4. Track or stage that file using
+    git add <filename>
+
+5. Then stage it or commit
+    git commit -m "Whatever commit"
+
+6. Then push it into the github 
+    git push origin main/master 
+        *main or master - depends which branch is your origin 
+
+7. Use git status to track changes in your file or folder 
+    git status
+
+8. To track the commits, use git log 
+    git log 
+
+9. To see the previous version of the file, or before changes being made, use git checkout 
+    git checkout <commit link>
+        *commit link - you can see it through git log, commit <commit link>
+
+10. For a better graphic of git log, use the ff:
+    git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
